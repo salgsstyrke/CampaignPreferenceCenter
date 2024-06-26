@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>jrsl_ul_Enable_Preference_Center__c</fullName>
+    <defaultValue>&quot;No&quot;</defaultValue>
+    <description>The preference center will allow email recipients to unsubscribe from different campaigns.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>The preference center will allow email recipients to unsubscribe from different campaigns.</inlineHelpText>
+    <label>Enable Preference Center</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>true</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

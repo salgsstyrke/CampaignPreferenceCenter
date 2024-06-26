@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommunityThemeDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultBrandingSet>Campaign_Preference_Center</defaultBrandingSet>
+    <enableExtendedCleanUpOnDelete>true</enableExtendedCleanUpOnDelete>
+    <masterLabel>Campaign_Preference_Center</masterLabel>
+    <publisher>Salesforce Labs</publisher>
+    <themeSetting>
+        <themeLayout>Campaign_Preference_Center_themeLayout_Login</themeLayout>
+        <themeLayoutType>Login</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>Campaign_Preference_Center_themeLayout_ServiceNotAvailable</themeLayout>
+        <themeLayoutType>ServiceNotAvailable</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>Campaign_Preference_Center_themeLayout_Default</themeLayout>
+        <themeLayoutType>Inner</themeLayoutType>
+    </themeSetting>
+</CommunityThemeDefinition>
